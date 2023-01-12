@@ -3,6 +3,11 @@
 
 [ pkmodel ] cmt = "GUT,CENT,PERIPH", depot = TRUE
 
+[ nmext ]
+project = "nonmem"
+run = "106"
+root = "cppfile"
+
 [ param ]
 WT   = 70
 EGFR = 90
