@@ -3,7 +3,7 @@
 
 [ nmext ]
 root = "cppfile"
-project = "."
+project = "nonmem"
 run = 106
 
 [ cmt ] GUT CENT PERIPH

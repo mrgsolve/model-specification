@@ -3,9 +3,9 @@
 
 $PLUGIN autodec nm-vars
 
-$NMEXT
+$NMXML
 root = "cppfile"
-project = "."
+project = "nonmem"
 run = 106
 
 $CMT GUT CENT PERIPH
@@ -42,7 +42,7 @@ F1 = 1.00;
 $DES
 
 DADT(1) = -KA  * A(1);
-DADT(2) =  KA  * A(1) - (K20 + K23) + K32*A(3);
+DADT(2) =  KA  * A(1) - (K20 + K23) * A(2) + K32*A(3);
 DADT(3) =  K23 * A(2) - K32 * A(3);
 
 $ERROR
